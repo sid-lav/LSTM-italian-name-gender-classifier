@@ -1,0 +1,104 @@
+Comparison between 1999 and 2014:
+Chi-square statistic: 0.5638602317692629
+p-value: 0.4527090644622489
+
+Comparison between 2014_output and 1999_output:
+Chi-square statistic: 0.012481585560262744
+p-value: 0.9110446147797464
+
+
+Comparison between 1999 and 1999_output:
+Chi-square statistic: 177.02776955324603
+p-value: 2.1597729266460686e-40
+
+
+Comparison between 1999 and 2014_output:
+Chi-square statistic: 173.93794993187765
+p-value: 1.0212569770313478e-39
+
+
+Comparison between 1999 and usa_names:
+Chi-square statistic: 18.750943877745957
+p-value: 1.4894961735816165e-05
+
+
+Comparison between 2014 and 1999:
+Chi-square statistic: 0.5638602317692629
+p-value: 0.4527090644622489
+
+
+Comparison between 2014 and 1999_output:
+Chi-square statistic: 151.701520152158
+p-value: 7.363112503164492e-35
+
+
+Comparison between 2014 and 2014_output:
+Chi-square statistic: 148.89429375685992
+p-value: 3.0244511856590977e-34
+
+
+Comparison between 2014 and usa_names:
+Chi-square statistic: 26.495379149053743
+p-value: 2.641692554133833e-07
+
+
+Comparison between 1999_output and 1999:
+Chi-square statistic: 177.02776955324603
+p-value: 2.1597729266460686e-40
+
+
+Comparison between 1999_output and 2014:
+Chi-square statistic: 151.701520152158
+p-value: 7.363112503164492e-35
+
+
+Comparison between 1999_output and 2014_output:
+Chi-square statistic: 0.012481585560262744
+p-value: 0.9110446147797464
+
+
+Comparison between 1999_output and usa_names:
+Chi-square statistic: 443.3440421666558
+p-value: 2.026095676267652e-98
+
+
+Comparison between 2014_output and 1999:
+Chi-square statistic: 173.93794993187765
+p-value: 1.0212569770313478e-39
+
+
+Comparison between 2014_output and 2014:
+Chi-square statistic: 148.89429375685992
+p-value: 3.0244511856590977e-34
+
+
+Comparison between 2014_output and 1999_output:
+Chi-square statistic: 0.012481585560262744
+p-value: 0.9110446147797464
+
+
+Comparison between 2014_output and usa_names:
+Chi-square statistic: 437.207215178723
+p-value: 4.388015774424264e-97
+
+
+Comparison between usa_names and 1999:
+Chi-square statistic: 18.75094387774596
+p-value: 1.4894961735816151e-05
+
+
+Comparison between usa_names and 2014:
+Chi-square statistic: 26.495379149053747
+p-value: 2.6416925541338285e-07
+
+
+Comparison between usa_names and 1999_output:
+Chi-square statistic: 443.34404216665587
+p-value: 2.026095676267594e-98
+
+
+Comparison between usa_names and 2014_output:
+Chi-square statistic: 437.207215178723
+p-value: 4.388015774424264e-97
+
+
