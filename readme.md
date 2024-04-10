@@ -1,6 +1,6 @@
-# Name Gender Classification
+# Italian Name Gender Classification
 
-A machine learning project that classifies names by gender using LSTM-based neural networks. The project focuses on analyzing and predicting gender from Italian and US names datasets.
+A machine learning project that classifies Italian names by gender using LSTM-based neural networks. The project focuses on analyzing and predicting gender from Italian and US names datasets.
 
 ## Project Overview
 
