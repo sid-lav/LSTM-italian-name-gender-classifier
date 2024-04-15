@@ -45,11 +45,122 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Prepare your datasets in the `data/` directory
+### Data Preparation
+
+1. Place your datasets in the `data/` directory:
+   - Italian names: `data/italian_names_1999.csv` and `data/italian_names_2014.csv`
+   - US names: `data/usa_names_2000.csv`
+
 2. Run data preprocessing:
 ```bash
+python src/data/process_italian_dataset.py
 python src/data/process_usa_dataset.py
 ```
+
+### Training the Model
+
+To train the model:
+```bash
+python src/train.py
+```
+
+### Evaluation
+
+Evaluate the model on test data:
+```bash
+python src/evaluate.py
+```
+
+### Model Configuration
+
+All model parameters can be configured in `src/config.py`. Key parameters include:
+- `EMBEDDING_DIM`: Character embedding size
+- `HIDDEN_DIM`: LSTM hidden layer size
+- `NUM_LAYERS`: Number of LSTM layers
+- `DROPOUT`: Dropout rate for regularization
+
+### Results
+
+The model achieves the following accuracy metrics:
+
+| Dataset | Italian Accuracy | US Accuracy |
+|---------|-----------------|-------------|
+| 1999    | 0.9681          | 0.9826      |
+| 2014    | 0.9411          | 0.9784      |
+| gen_1999| 0.9076          | 0.9021      |
+| gen_2014| 0.8575          | 0.9045      |
+| usa_names| 0.6413         | 0.8547      |
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details
+
+## Acknowledgments
+
+- Thanks to the Italian government for providing the names datasets
+- Thanks to the US Social Security Administration for the US names dataset
+- Special thanks to all contributors who helped improve this project
+
+## Contact
+
+For questions or feedback, please open an issue in the repository or contact:
+- Your Name <your.email@example.com>
+
+## Usage
+
+### Data Preparation
+
+1. Place your datasets in the `data/` directory:
+   - Italian names: `data/italian_names_1999.csv` and `data/italian_names_2014.csv`
+   - US names: `data/usa_names_2000.csv`
+
+2. Run data preprocessing:
+```bash
+python src/data/process_italian_dataset.py
+python src/data/process_usa_dataset.py
+```
+
+### Training the Model
+
+To train the model:
+```bash
+python src/train.py
+```
+
+### Evaluation
+
+Evaluate the model on test data:
+```bash
+python src/evaluate.py
+```
+
+### Model Configuration
+
+All model parameters can be configured in `src/config.py`. Key parameters include:
+- `EMBEDDING_DIM`: Character embedding size
+- `HIDDEN_DIM`: LSTM hidden layer size
+- `NUM_LAYERS`: Number of LSTM layers
+- `DROPOUT`: Dropout rate for regularization
+
+### Results
+
+The model achieves the following accuracy metrics:
+
+| Dataset | Italian Accuracy | US Accuracy |
+|---------|-----------------|-------------|
+| 1999    | 0.9681          | 0.9826      |
+| 2014    | 0.9411          | 0.9784      |
+| gen_1999| 0.9076          | 0.9021      |
+| gen_2014| 0.8575          | 0.9045      |
+| usa_names| 0.6413         | 0.8547      |
 3. Train the model using the Jupyter notebook:
 ```bash
 jupyter notebook notebooks/model.ipynb
